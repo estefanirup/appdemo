@@ -1,0 +1,13 @@
+### Obter todas as pessoas
+GET http://localhost:8080/person
+
+### Criar pessoa
+POST http://localhost:8080/person
+Content-Type: application/json
+
+{
+  "name": "Estefani",
+  "email": "tefinha@gmail.com"
+  }
+
+Oi API
