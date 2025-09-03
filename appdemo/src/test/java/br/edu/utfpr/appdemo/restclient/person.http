@@ -1,6 +1,9 @@
 ### Obter todas as pessoas
 GET http://localhost:8080/person
 
+### Obter por id
+GET http://localhost:8080/person/9143ac10-aa68-4477-abba-3de492655610
+
 ### Criar pessoa
 POST http://localhost:8080/person
 Content-Type: application/json
