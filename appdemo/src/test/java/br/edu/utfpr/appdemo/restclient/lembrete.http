@@ -1,0 +1,12 @@
+@URL=http://localhost:8080
+
+@UUID=4e36aa6e-4ead-41b0-b619-710eb7dcc63a
+
+### Criar lembrete
+POST {{URL}}/person/{{UUID}}/lembretes
+Content-Type: application/json
+
+{
+    "mensagem": "Lembrete de teste",
+    "dataHora": "2025-12-31T23:59:59"
+}
